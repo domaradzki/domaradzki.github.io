@@ -103,6 +103,10 @@ img {
   align-items: center;
   justify-items: center;
   padding: 1.5rem;
+  box-shadow: var(--shadow);
+}
+.top-container__contact .fa-3x:hover {
+  color: var(--light);
 }
 
 .top-container__mail {
@@ -135,6 +139,10 @@ img {
   grid-gap: 30px;
   grid-template-columns: repeat(2, 1fr);
   padding: 3rem;
+}
+
+.about img {
+    margin: auto;
 }
 
 .skills,
